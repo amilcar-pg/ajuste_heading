@@ -1,0 +1,17 @@
+<!---BLOCK_LANDSCAPE_START--->
+
+# Cronograma {#calendar}
+
+<br>
+
+<br>
+
+```{r echo=FALSE}
+head(mtcars) |>
+  flextable::flextable() |> 
+  flextable::autofit(add_w = 0.1) |>
+  flextable::align(align = 'center')
+  
+```
+
+<!---BLOCK_LANDSCAPE_STOP--->

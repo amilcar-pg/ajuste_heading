@@ -1,0 +1,88 @@
+--- 
+site: bookdown::bookdown_site
+documentclass: book
+link-citations: yes
+bibliography: [referencias/bibliografia_lida.bib, referencias/packages.bib, referencias/r_base.bib]
+csl: referencias/abnt.csl
+---
+
+```{r include=FALSE}
+library(knitr)
+library(officedown)
+library(officer)
+opts_chunk$set(echo = FALSE, 
+               tab.lp="Tabela:",
+               fig.lp="Imagem:"
+               )
+```
+
+:::{custom-style="capa_12_bold"}
+Universidade de Brasília
+
+<br>
+
+<br>
+
+Faculdade de Economia, Administração, Contabilidade e Gestão
+
+<br>
+
+<br>
+
+Técnicas de Pesquisa Econômica
+
+<br>
+
+<br>
+
+INSERIR O NOME COMPLETO
+
+INSERIR NÚMERO DE MATRÍCULA
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+```{r echo=FALSE, fig.align='center', fig.height=3, fig.asp = 0.5}
+include_graphics("figures/as_vert_CONT_cortada.jpg", )
+```
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+VERSÃO FINAL DE PROJETO DE PESQUISA
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+BRASÍLIA
+
+<br>
+
+2023
+:::
+\newpage

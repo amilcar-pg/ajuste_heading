@@ -1,0 +1,8 @@
+# Título do projeto {#title}
+
+<br>
+
+:::{custom-style="title_format"}
+INSERIR TÍTULO DO PROJETO
+:::
+

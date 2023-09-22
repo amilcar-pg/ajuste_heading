@@ -1,0 +1,27 @@
+# Bibliografia {#bibliography}
+
+:::{custom-style="Body text"}
+=====================================================================
+:::
+
+## Lembrar de apagar essa parte depois!!!!!!!!!!!!!!
+
+Formas de citar:
+
+@girard_amilcar_2001
+
+[@girard_amilcar_2001, p.10]
+
+[@girard_amilcar_2001; @girard_amilcar_2001]
+
+[-@girard_amilcar_2001]
+
+=====================================================================
+
+```{r}
+pacotes <- c("knitr", "officedown", "officer")
+knitr::write_bib(pacotes, "referencias/packages.bib")
+knitr::write_bib(file = "referencias/r_base.bib")
+```
+
+# Bibliografia gerada automaticamente.
